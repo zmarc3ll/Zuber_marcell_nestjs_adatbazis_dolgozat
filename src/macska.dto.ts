@@ -1,5 +1,5 @@
 
 export class MacskaDto {
-    weight: number;
-    eyeColor: string;
+    suly: number;
+    szem_szin: string;
 }
