@@ -16,18 +16,20 @@
             text-align: center;
         }
     </style>
-    <form method="post">
-        <label>Macska szemének a színe:</label>
-        <input type="text" name="szem_szin" required> 
+    <div class="container-fluid">
+        <form method="post">
+            <label>Macska szemének a színe:</label>
+            <input type="text" name="szem_szin" required>
+            <br>
+            <br>
+            <label>Macskának a súlya:</label>
+            <input type="number" name="suly" required min="1">
+            <br>
+            <br>
+            <input type="submit" value="Létrehozás">
+        </form>
         <br>
-        <br>
-        <label>Macskának a súlya:</label>
-        <input type="number" name="suly" required min="1"> 
-        <br>
-        <br>
-        <input type="submit" value="Létrehozás">
-    </form>
-    <br>
-    <a href="/">Vissza</a>
-</body>
+        <a href="/">Vissza</a>
+        </body>
+    </div>
 </html>
